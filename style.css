@@ -1,0 +1,27 @@
+/*
+Theme Name: Bookstore
+Author: me
+Description: nonono
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+Version: 0.1
+Text Domain: mybookstore
+Tags: trytry
+*/
+
+
+/* 개발자도구 => disable cache */
+html{
+  font-size: 100%;
+  list-style: 1.8;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
