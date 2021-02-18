@@ -25,7 +25,7 @@ function bs_mng_book_posts_custom_column($column, $post_id) {
         break;
       }
 
-      $imgUrl = wp_get_attachment_image_url($cover_id, 'medium');
+      $imgUrl = wp_get_attachment_image_url($cover_id);
 
       if(!$imgUrl){
         break;
